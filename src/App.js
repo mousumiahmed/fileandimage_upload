@@ -31,7 +31,7 @@ class App extends React.Component{
     return (
       <div className="App">
          <input type="file" name="avatar" onChange={this.fileChangedHandler} />
-         <button type="button" onClick={this.submit} > Upload </button>
+         {/* <button type="button" onClick={this.submit} > Upload </button> */}
          <img src={this.state.imagePreviewUrl}/>
       </div>
     );
